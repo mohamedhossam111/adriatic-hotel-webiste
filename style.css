@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:silver;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 70px;
+}
+
+nav > a {
+    color: black;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+    background-color: aquamarine;
+}
+
+.container > div {
+    border: 1px solid red;
+    margin: 10px 10px;
+    font-size: xx-large;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+
