@@ -6,36 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BOOK</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="book.css">
+
 </head>
 <body>
     <nav>
         <img class="logo" src="assets/logo.png" alt="logo">
         <a href="index.html">HOME</a>
+        <a href="facilities.html">FACILITIES</a>
         <a href="book.html">BOOK</a>
         <a href="about-us.html">ABOUT US</a>
         <a href="Contactus.html">CONTACT US</a>
     </nav>
+    <img class="toppic" src="assets/maincover.jpg" alt="">
     
-    <form action="">
-        <label for="ONLINE-CHECK-IN">check-in</label>
-        <input type="date" name="ONLINE-CHECK-IN" id="">
-        <br>
-        <label for="online-check-out">check-out</label>
-        <input type="date" name="online-check-out" id="">
-        <br>
-        <label for="Guests">Guests</label>
-        <input type="number" name="Guests" id="">
-        <br>
-        <label for="ROOM-TYPES">Room-types</label>
-        <input type="ROOM-TYPES" Room-types="" id="">
-        <br>
+    <form class="calender" action="">
+        <div>
 
-        <input type="submit" id='btn1' value="Book">
+            <label for="ONLINE-CHECK-IN">Check-In</label>
+            <input type="date" name="ONLINE-CHECK-IN" id="check-in">
+        </div>
+        <!-- <div>
+            <label for="online-check-out">Check-Out</label>
+        <input type="date" name="online-check-out" id="check-out">
+
+        </div> -->
+        <div>
+            <label for="online-check-out">How many days do you stay?</label>
+            <input type="number" name="online-check-out" id="stay">
+        </div>
+
+        <div>
+            <label for="Guests">Guests</label>
+            <input type="number" name="Guests" id="guest">
+        </div>
+
+        <div>
+            <label for="RoomType">Room-type</label>
+            <select name="RoomType" id="drop">
+                <option value="Standerd">Standerd</option>
+                <option value="Twin-Room">Twin-Room</option>
+                <option value="Suit">Suit</option>
+            </select>
+        
+
+        </div>
+        
+
+        <input class="btn" type="submit" id='btn1' value="Book">
 
         <p class="output" id="output1"></p>
             
         </form>
-        <script src="script.js">
+        <!-- <script src="script.js">
             const txt1 = document.getElementById('Online-check-in');
             const txt2 = document.getElementById('online-check-out');
             const out1 = document.getElementById('Guests');
@@ -51,12 +74,7 @@
 
 
         </script>
-
-
-
-
-        
-        
-    </form>
+         -->
+    <script src="book.js"></script>
 </body>
 </html>

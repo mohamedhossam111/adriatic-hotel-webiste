@@ -1,49 +1,29 @@
 .toppic{
-    width: 100%;
-    border: 1px solid red;
+    width: 100%; 
 }
-/* Container holding the image and the text */
-/* .container-pic {
-    width: 100%;
-    position: relative;
-    text-align: center;
-    color: white;
-  } */
+.allpic{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   
-  /* Bottom left text */
-/* .bottom-left {
-    position: absolute;
-    bottom: 8px;
-    left: 16px;
-  } */
-  
-  /* Top left text */
-/* .top-left {
-    position: absolute;
-    top: 8px;
-    left: 16px;
-  } */
-  
-  /* Top right text */
-/* .top-right {
-    position: absolute;
-    top: 8px;
-    right: 16px;
-  } */
-  
-  /* Bottom right text */
-/* .bottom-right {
-    position: absolute;
-    bottom: 8px;
-    right: 16px;
-  } */
-  
-  /* Centered text */
-/* .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }   */
+}
+.pic{
+  margin: 7%;
+  max-width: 60%;
+}
+
+h1{
+  margin: 1%;
+}
+.textholder{
+  display: flex;
+  justify-content: center;
+  color: rgb(141, 94, 141);
+}
+p{
+  margin: 0 9%;
+  font-size: larger;
+}
 
   
