@@ -13,7 +13,50 @@
         <a href="index.html">HOME</a>
         <a href="book.html">BOOK</a>
         <a href="about-us.html">ABOUT US</a>
-        <a href="online-check-in.html">ONLINE CHECK IN</a>
+        <a href="Contactus.html">CONTACT US</a>
     </nav>
+    
+    <form action="">
+        <label for="ONLINE-CHECK-IN">check-in</label>
+        <input type="date" name="ONLINE-CHECK-IN" id="">
+        <br>
+        <label for="online-check-out">check-out</label>
+        <input type="date" name="online-check-out" id="">
+        <br>
+        <label for="Guests">Guests</label>
+        <input type="number" name="Guests" id="">
+        <br>
+        <label for="ROOM-TYPES">Room-types</label>
+        <input type="ROOM-TYPES" Room-types="" id="">
+        <br>
+
+        <input type="submit" id='btn1' value="Book">
+
+        <p class="output" id="output1"></p>
+            
+        </form>
+        <script src="script.js">
+            const txt1 = document.getElementById('Online-check-in');
+            const txt2 = document.getElementById('online-check-out');
+            const out1 = document.getElementById('Guests');
+            const txt4 = document.getElementById('room-types');
+            const btn1 = document.getElementById('btn1');
+
+            function fun1(){
+                out1.innerHTML = txt1.value;
+            }
+
+
+            btn1.addEventListener('click',fun1);
+
+
+        </script>
+
+
+
+
+        
+        
+    </form>
 </body>
 </html>

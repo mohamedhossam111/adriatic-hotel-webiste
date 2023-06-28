@@ -22,16 +22,34 @@ nav > a {
     justify-content: center;
     align-items: center;
     min-height: 20vh;
-    background-color: aquamarine;
+    margin: 5% ;
 }
 
 .container > div {
-    border: 1px solid red;
+ 
     margin: 10px 10px;
-    font-size: xx-large;
+    font-size: larger;
 }
 .logo{
     width: 70px;
     height: 70px;
+}
+.toppic{
+    width: 100%;
+}
+.roompic{
+    width: 40%;
+
+}
+.roompic2{
+    width: 40%;
+}
+.roomtypeheading{
+    display: flex;
+    justify-content: center;
+    color:  rgb(141, 94, 141);
+}
+h3{
+    color:  rgb(141, 94, 141);
 }
 

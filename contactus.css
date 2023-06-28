@@ -1,0 +1,35 @@
+.name{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 1.7rem;
+}
+input{
+    display: block;
+    margin-bottom: 1.5rem;
+    height: 1.8rem;
+    width: 100%;
+}
+label[for="message"]{
+    font-size: large;
+}
+input[type="submit"]{
+    padding: 1.5rem ;
+    background-color: rgb(141, 94, 141);
+    color: aliceblue;
+    margin: 1.3rem 0;
+}
+.form-paragraph{
+    margin-top: 2rem;
+    font-size: larger;
+  
+
+}
+
+h1{
+   margin: 2%;
+}
+.hossam{
+    margin: 2%;
+    font-size: larger;
+    color:  rgb(141, 94, 141)
+}
