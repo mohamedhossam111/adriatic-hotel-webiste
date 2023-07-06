@@ -23,7 +23,10 @@ h1{
 }
 p{
   margin: 0 9%;
-  font-size: larger;
+  font-size: medium;
+  margin-bottom: 2%;
 }
-
+h2{
+  font-size: medium;
+}
   
